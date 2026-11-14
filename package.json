@@ -5,12 +5,30 @@
   "scripts": {
     "test": "node --test tests/*.test.cjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "bing",
+    "chrome-extension",
+    "edge-extension",
+    "search",
+    "blocklist"
+  ],
+  "author": "TeaCaddy",
   "type": "commonjs",
   "dependencies": {
     "playwright": "1.65.0",
     "tldts": "7.5.2"
   },
-  "private": true
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeaCaddy/bing-blocker.git"
+  },
+  "homepage": "https://github.com/TeaCaddy/bing-blocker#readme",
+  "bugs": {
+    "url": "https://github.com/TeaCaddy/bing-blocker/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }
